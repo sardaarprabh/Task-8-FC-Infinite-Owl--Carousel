@@ -1,0 +1,36 @@
+*,*::after,*::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+main{
+  text-align: center;
+}
+
+header{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.carousel{
+  font-size:0;
+  max-width:900px;
+  margin: 0 auto;
+}
+
+.slide {
+  width: 100%;
+}
+.slide img{
+  max-width: 300px;
+  display: inline-block;
+}
+
+.btn{
+  margin:0 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
